@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 76px;
+}
+
+a {
+    padding-right: 23px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgba(152, 157, 156, 1);
+    line-height: 29.26px;
+    cursor: pointer;
+}
+
+.botao-login {
+    width: 130px;
+    height: 41px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 20.5px;
+    background-color:#665AE1;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.caixa-1 {
+    display: inline-block;
+    position: relative;
+    margin-top: 144px;
+    margin-left: 125px;
+}
+
+.caixa-2 {
+    display: inline-block;
+    margin-left: 86px;
+    align-items:center;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 121.9px;
+    color: #515151 ;
+}
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    color: #515151;
+}
+
+p{
+    Width: 515px;
+    Height: 87px;
+    font-size: 24px;
+    line-height: 29.26px;
+    margin-top: 32px;
+    margin-bottom: 117px;
+}
+
+.botao-explorar {
+    font-size: 28px;
+    font-weight: 700;
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    border: none;
+    color: #000000;
+    background-color: #ADFF00;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 900px){
+    *{
+        line-height: normal;
+    }
+    header {
+        display: none;
+    }
+
+    img {
+        
+        width: 354px;
+        height: 317px;
+        margin-left: 6px;
+    }
+
+    .caixa-1{
+        margin-left: 20px;
+    }
+
+    p {
+        display: none;
+    }
+
+    h1 {
+        font-size: 45px;
+        line-height: 0;
+        position: relative;
+        margin-top: 44px;
+    }
+
+    h2 {
+        font-size: 27px;
+        margin-left: 19px;
+        line-height: 91.2px;
+
+    }
+    .botao-explorar {
+        width: 180px;
+        height: 50px;
+        font-size: 21px;
+        margin-left: 30px;
+        margin-top: -10px;
+    }
+}
